@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Easy_9 {
+public class Easy_9_C {
 
     public static void main(String[] args) {
         int x = 121;
