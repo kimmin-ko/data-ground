@@ -3,7 +3,7 @@ package leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Easy_13 {
+public class Easy_13_C {
 
     public static void main(String[] args) {
         String s = "D"; // 1695
@@ -42,7 +42,6 @@ public class Easy_13 {
             if(i == s.length() - 1)
                 result += map.get(s.charAt(i));
         }
-
 
         return result;
     }
