@@ -5,7 +5,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class B_5052 {
+public class B_5052_C {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
