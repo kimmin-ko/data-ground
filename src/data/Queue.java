@@ -7,9 +7,9 @@ public class Queue<T> {
     private Node<T> first;
     private Node<T> last;
 
-    private static class Node<T> {
-        T item;
-        Node<T> next;
+    static class Node<T> {
+        private T item;
+        private Node<T> next;
 
         public Node(T item) {
             this.item = item;
