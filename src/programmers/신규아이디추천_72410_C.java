@@ -3,7 +3,7 @@ package programmers;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Lessons_72410_C {
+public class 신규아이디추천_72410_C {
 
     public static void main(String[] args) {
         String id = solution("123_.def");

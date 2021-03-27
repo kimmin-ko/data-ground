@@ -3,7 +3,7 @@ package programmers;
 import java.util.Arrays;
 import java.util.Stack;
 
-public class 주식가격_42584 {
+public class 주식가격_42584_C {
 
     public static void main(String[] args) {
         long start = System.nanoTime();

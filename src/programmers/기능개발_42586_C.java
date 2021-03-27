@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.*;
 
-public class 기능개발_42586 {
+public class 기능개발_42586_C {
 
     public static void main(String[] args) {
         int[] progresses = new int[]{93, 30, 55};
