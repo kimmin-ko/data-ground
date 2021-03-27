@@ -1,13 +1,9 @@
 package programmers;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import static java.util.stream.Collectors.counting;
-import static java.util.stream.Collectors.groupingBy;
-
-public class Lessons_42576 {
+public class 완주하지못한선수_42576_C {
 
     public static void main(String[] args) {
         String[] participant = {"eden", "leo", "kiki", "eden"};
@@ -23,11 +19,12 @@ public class Lessons_42576 {
 
         for (String player : participant) {
             int count = 0;
-            Integer value = map.get(player);
-            if(value != null)
-                count = value;
+            Integer value = map.get(player); // map.get(player) "eden"
 
-            map.put(player, ++count);
+            if(value != null) // 이름이 중복일 경우
+                count = value; // 1
+
+            map.put(player, ++count); // 1 + 1 = 2
         }
 
         for (String player : completion) {

@@ -1,9 +1,10 @@
 package programmers;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
 
-public class Lessons_42578_C {
+public class 위장_42578_C {
 
     public static void main(String[] args) {
         String[][] clothes = {{"yellowhat", "headgear"}, {"bluesunglasses", "eyewear"}, {"green_turban", "headgear"}};
