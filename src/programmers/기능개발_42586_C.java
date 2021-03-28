@@ -26,7 +26,7 @@ public class 기능개발_42586_C {
         while (true) { // break;를 만날 때 까지 반복
             int workDay = queue.remove(); // 큐에서 기능 개발 기간을 꺼냄
 
-            if (workDay <= maxWorkDay) { // 현재 작업 기간이 최대 작업 기간보다 작거나 같으
+            if (workDay <= maxWorkDay) { // 현재 작업 기간이 최대 작업 기간보다 작거나 같음
                 count++; // 배포 될 기능을 1 만큼 추가하고 다음 작업 검사
             } else { // 현재 작업 기간이 최대 작업 기간보다 크다면
                 result.add(count); // 이전까지의 배포될 기능 개수를 결과에 저장면
