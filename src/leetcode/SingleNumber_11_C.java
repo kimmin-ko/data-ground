@@ -3,7 +3,7 @@ package leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Easy_SingleNumber_11 {
+public class SingleNumber_11_C {
 
     public static void main(String[] args) {
         int[] nums = {4, 1, 2, 1, 2};

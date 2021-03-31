@@ -1,12 +1,12 @@
 package data;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 
 public class Test {
 
     public static void main(String[] args) {
-        HashMap<String, String> map = new HashMap<>();
-        map.put("test", "test");
+
     }
 
 }
