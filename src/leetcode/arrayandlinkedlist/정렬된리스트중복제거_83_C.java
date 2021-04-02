@@ -1,6 +1,6 @@
 package leetcode.arrayandlinkedlist;
 
-public class 정렬된리스트중복제거_83 {
+public class 정렬된리스트중복제거_83_C {
 
     public static void main(String[] args) {
         ListNode data4 = new ListNode(3);
