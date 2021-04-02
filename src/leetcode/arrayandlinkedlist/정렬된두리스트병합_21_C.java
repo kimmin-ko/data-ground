@@ -1,6 +1,6 @@
-package leetcode;
+package leetcode.arrayandlinkedlist;
 
-public class MergeTwoSortedLists_21_C {
+public class 정렬된두리스트병합_21_C {
 
     public static void main(String[] args) {
         ListNode l1_4 = new ListNode(4);
@@ -12,15 +12,13 @@ public class MergeTwoSortedLists_21_C {
         ListNode l2_1 = new ListNode(1, l2_3);
 
         ListNode result = mergeTwoLists(l1_1, l2_1);
-        print(result);
+        ListNodeUtil.print(result);
     }
 
     public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode fakeNode = new ListNode(-1);
         ListNode lastNode = fakeNode;
 
-        // 1 2 4
-        // 1 3 4
         while (l1 != null && l2 != null) {
             if (l1.val < l2.val) {
                 lastNode.next = l1;
@@ -40,28 +38,6 @@ public class MergeTwoSortedLists_21_C {
             lastNode.next = l2;
 
         return fakeNode.next;
-    }
-
-    private static void print(ListNode node) {
-        System.out.print(node.val + " ");
-        if (node.next == null)
-            return;
-
-        print(node.next);
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
     }
 
 }

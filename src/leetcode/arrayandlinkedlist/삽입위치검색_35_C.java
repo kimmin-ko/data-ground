@@ -1,8 +1,8 @@
-package leetcode;
+package leetcode.arrayandlinkedlist;
 
 import java.util.Arrays;
 
-public class SearchInsertPosition_35_C {
+public class 삽입위치검색_35_C {
 
     public static void main(String[] args) {
         int[] nums = {1,3,5,6};
