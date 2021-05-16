@@ -1,10 +1,14 @@
 [자료구조]
 
+배열
+- https://leetcode.com/problems/container-with-most-water/
+- https://leetcode.com/problems/search-insert-position/
+- https://leetcode.com/problems/maximum-subarray/
+- https://leetcode.com/problems/combination-sum/
+
 해시맵
 
 스택/큐
-
-배열
 
 링크드 리스트
 
